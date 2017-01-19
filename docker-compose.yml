@@ -29,4 +29,4 @@ services:
       - GF_SECURITY_ADMIN_PASSWORD=password
       - GF_SERVER_ROOT_URL=http://us01dv2utl04:3000
       - GF_AUTH_ANONYMOUS_ENABLED=true
-      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource
+      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource,grafana-worldmap-panel,grafana-piechart-panel,ryantxu-ajax-panel,btplc-alarm-box-panel,digiapulssi-breadcrumb-panel,neocat-cal-heatmap-panel,briangann-gauge-panel,briangann-datatable-panel,jdbranham-diagram-panel,savantly-heatmap-panel,mtanda-heatmap-epoch-panel,mtanda-histogram-panel,btplc-peak-report-panel,vonage-status-panel,btplc-trend-box-panel,btplc-trend-dot-panel
